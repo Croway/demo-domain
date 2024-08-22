@@ -1,0 +1,28 @@
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: fmariani-system-prod
+  labels:
+    app : fmariani-system
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: fmariani-system-qa
+  labels:
+    app : fmariani-system
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: fmariani-system-dev
+  labels:
+    app : fmariani-system
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: fmariani-system-build
+  labels:
+    app : fmariani-system
