@@ -1,0 +1,28 @@
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: crw-skeleton-test-prod
+  labels:
+    app : crw-skeleton-test
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: crw-skeleton-test-qa
+  labels:
+    app : crw-skeleton-test
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: crw-skeleton-test-dev
+  labels:
+    app : crw-skeleton-test
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: crw-skeleton-test-build
+  labels:
+    app : crw-skeleton-test
