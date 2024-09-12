@@ -1,0 +1,28 @@
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: quarkus-prod
+  labels:
+    app : quarkus
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: quarkus-qa
+  labels:
+    app : quarkus
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: quarkus-dev
+  labels:
+    app : quarkus
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: quarkus-build
+  labels:
+    app : quarkus
